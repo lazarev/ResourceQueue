@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4909C8C32F521FB0009D2F1B /* ResourceQueue in Frameworks */ = {isa = PBXBuildFile; productRef = 4909C8C22F521FB0009D2F1B /* ResourceQueue */; };
 		4996062E2F51CA33005F2A57 /* ResourceQueue in Frameworks */ = {isa = PBXBuildFile; productRef = 4996062D2F51CA33005F2A57 /* ResourceQueue */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4909C8C32F521FB0009D2F1B /* ResourceQueue in Frameworks */,
 				4996062E2F51CA33005F2A57 /* ResourceQueue in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +120,7 @@
 			name = ResourceQueueApp;
 			packageProductDependencies = (
 				4996062D2F51CA33005F2A57 /* ResourceQueue */,
+				4909C8C22F521FB0009D2F1B /* ResourceQueue */,
 			);
 			productName = ResourceQueueApp;
 			productReference = 499605FF2F51C7D6005F2A57 /* ResourceQueueApp.app */;
@@ -202,7 +205,7 @@
 			mainGroup = 499605F62F51C7D6005F2A57;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				4996062C2F51CA33005F2A57 /* XCLocalSwiftPackageReference "ResourceQueue" */,
+				4909C8C12F521FB0009D2F1B /* XCLocalSwiftPackageReference "../ResourceQueueApp" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 499606002F51C7D6005F2A57 /* Products */;
@@ -589,13 +592,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		4996062C2F51CA33005F2A57 /* XCLocalSwiftPackageReference "ResourceQueue" */ = {
+		4909C8C12F521FB0009D2F1B /* XCLocalSwiftPackageReference "../ResourceQueueApp" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ResourceQueue;
+			relativePath = ../ResourceQueueApp;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4909C8C22F521FB0009D2F1B /* ResourceQueue */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ResourceQueue;
+		};
 		4996062D2F51CA33005F2A57 /* ResourceQueue */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ResourceQueue;
